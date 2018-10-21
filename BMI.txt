@@ -1,0 +1,25 @@
+Weight=55
+Height=171
+
+BMI=(Weight/Height/Height)*10000
+
+print("Body Mass Index:")
+print(BMI)
+
+print("BMI Category:")
+if BMI<15:
+    print("Very Saverely Underweight")
+elif BMI<16:
+    print("Saverely Underweight")
+elif BMI<18.5:
+    print("Underweight")
+elif BMI<25:
+    print("Normal (Healthy Weight)")
+elif BMI<30:
+    print("Overweight")
+elif BMI<35:
+    print("Moderate Obese")
+elif BMI<40:
+    print("Saverely Obese")
+else:
+    print("Very Saverely Obese")
